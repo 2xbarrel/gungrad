@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "h1";
+    src: url("fonts/42.ttf");
+}
+  
+@font-face {
+    font-family: "h2";
+    src: url("fonts/Engebrechtre\ Bd.otf");
+}
+
+@font-face {
+    font-family: "title";
+    src: url("fonts/Fyodor-Bold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: rgb(143, 100, 62);
+    --color2: rgb(177, 50, 0);
+    --color3: rgb(0, 0, 0);
+}
+
+body {
+    margin: 0;
+    /* min-height: 100vh; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color3);
+    overflow: hidden;
+    /* background: repeating-radial-gradient(circle, var(--color1), var(--color1) 3px, var(--color2) 3px, var(--color2) 30px);
+    background-size: 46px 46px; */
+}
+
+h1 {
+    font-family: "title";
+    margin-top: 5px;
+    margin-bottom: -15px;
+    color: var(--color1);
+    font-size: 120px;
+}
+
+.title {
+    font-size: 35px;
+    font-family: "h1";
+}
+
+h2 {
+    margin-top: -12px;
+    font-family: "title";
+    color: var(--color1);
+    font-size: 60px;
+}
+
+li {
+    /* list-style: square; */
+    font-family: "h2";
+    /* margin: 5px; */
+    font-size: 30px;
+}
+
+
+.img {
+    filter: grayscale(100%);
+    max-width: 700px;
+    height: auto;
+    position: absolute;
+}
+
+@keyframes fallin {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+
+.fallinnnnnwaltuhs {
+    top: -100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.fallinnnnnwaltuhs:nth-of-type(odd) {
+    left: 0;
+}
+
+.fallinnnnnwaltuhs:nth-of-type(even) {
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.fallinwaltuhs {
+    height: 100vh;
+    width: 30vw;
+    background-image: linear-gradient(to right, transparent, var(--color3)), url("blansks1.svg");
+    background-repeat: repeat;
+    background-size: cover;
+    display: inline-block;
+    white-space: nowrap;
+    animation: 10s linear infinite normal fallin;
+    position: relative;
+}
+
+.fallinwaltuhs2 {
+    background-image: linear-gradient(to right, transparent, var(--color3)), url("blansks2.svg");
+    animation-duration: 17s;
+}
+
+a {
+    cursor: pointer;
+    font-size: 42px;
+    font-family: h2;
+    color: var(--color2);
+    text-decoration: underline 2px var(--color2);
+}
+
+a:visited {
+    text-decoration: underline 2px;
+    color: var(--color2);
+}
+
+.container {
+    position: relative;
+    height: 480px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.chapters {
+    margin-top: -40px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.selection {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 2px;
+    border: 5px double  var(--color1); 
+}
+
+.bugs {
+    z-index: 0; 
+}
+
+.sin {
+    z-index: 0; 
+}
+
+@media screen and (max-width: 750px) {    
+    h1 {
+      font-size: 15vw;
+    }
+    
+    .title {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 10vw;
+    }
+
+    li {
+      font-size: 4vw;
+    }
+
+    .img {
+        max-width: 90vw;
+    }
+
+    .fallinwaltuhs {
+        width: 100vw;
+        background-image: url("blansks1.svg");
+        filter: brightness(40%);
+    }
+
+    .fallinwaltuhs2 {
+        background-image: url("blansks2.svg");
+    }
+
+    .fallinnnnnwaltuhs:nth-of-type(even) {
+        display: none;
+    }
+
+    .container {
+        max-height: 60vw;
+    }
+}
+  
+  

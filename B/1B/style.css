@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "h2";
+    src: url("../../fonts/PatrickHand-Regular.ttf");
+}
+
+@font-face {
+    font-family: "text";
+    src: url("../../fonts/Children.ttf");
+}
+
+@font-face {
+    font-family: "title";
+    src: url("../../fonts/Fyodor-Bold.ttf");
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 20px;
+    width: 720px;
+    height: 750px;
+}
+
+.visual {
+    position: relative;
+    width: 530px;
+    height: 750px;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+img {
+    max-width: 720px;
+}
+
+.bg {
+    position: absolute;
+    z-index: 0;
+}
+ 
+.overlay {
+    position: absolute;
+    z-index: 3;
+}
+
+.char {
+    position: absolute;
+    opacity: 0;
+    width: 80%;
+    filter: brightness(50%);
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.char2 {
+    position: absolute;
+    opacity: 0;
+    transform: scaleX(-1);
+    width: 80%;
+    filter: brightness(50%);
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.extra1 {
+    position: absolute;
+    opacity: 1;
+}
+
+.extra2 {
+    position: absolute;
+    opacity: 1;
+    transform: scaleX(-1);
+}
+
+h2 {
+    font-size: 28px;
+    font-family: "h2";
+    margin-top: -3px;
+    margin-bottom: 0;
+    color: white;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+h1 {
+    margin-bottom: -15px;
+    font-family: "title";
+    color: rgb(143, 100, 62);
+}
+
+.Gavril {
+    color: rgb(196, 119, 142);
+    -webkit-text-stroke: 1px rgb(196, 119, 142);
+}
+
+.Lilith {
+    color: rgb(153, 23, 84);
+    -webkit-text-stroke: 1px rgb(153, 23, 84);
+}
+
+.STOPLOOKINGHERE {
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+    color: #00000000;
+}
+
+.dialogueBox {
+    border-radius: 15px;
+    border: 3px solid rgb(143, 100, 62);
+    position: absolute;
+    padding: 7px;
+    min-height: 200px;
+    width: 510px;
+    background-color: #000000c5;
+    z-index: 4;
+    bottom: 0;
+}
+
+.button {
+    position: absolute;
+    font-size: 40px;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}

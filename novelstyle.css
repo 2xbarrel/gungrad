@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "h1";
+    src: url("fonts/Fyodor-Bold.ttf");
+}
+  
+@font-face {
+    font-family: "h2";
+    src: url("fonts/Rudiment.ttf");
+}
+
+@font-face {
+    font-family: "restless";
+    src: url("fonts/JustAnotherHand.ttf");
+}
+
+@font-face {
+    font-family: "shatter";
+    src: url("fonts/SHATTERB.TTF");
+}
+
+@font-face {
+    font-family: "grimace";
+    src: url("fonts/gomarice_green_tea_Jelly.ttf");
+}
+
+@font-face {
+    font-family: "lima";
+    src: url("fonts/The\ Lima.otf");
+}
+
+@font-face {
+    font-family: "pc";
+    src: url("fonts/PC.ttf");
+}
+
+@font-face {
+    font-family: "quick";
+    src: url("fonts/Quikhand.ttf");
+}
+
+@font-face {
+    font-family: "soda";
+    src: url("fonts/pneutall.ttf");
+}
+
+@font-face {
+    font-family: "maj";
+    src: url("fonts/MAJY4.otf");
+}
+
+@font-face {
+    font-family: "wort";
+    src: url("fonts/wortl-r.ttf");
+}
+
+@font-face {
+    font-family: "hanaley";
+    src: url("fonts/Halaney-Demo.otf");
+}
+
+@font-face {
+    font-family: "pencil";
+    src: url("fonts/Pencilant\ Script.ttf");
+}
+
+:root {
+    --color1: rgb(170, 102, 42);
+    --color2: rgb(177, 50, 0);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.dialogueBox {
+    padding: 7px;
+    margin-top: 10px;
+    min-width: 710px;
+    border: 3px solid  var(--color1); 
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.visual {
+    position: relative;
+    width: 730px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.char {
+    opacity: 0;
+}
+
+.char2 {
+    opacity: 0;
+    transform: scaleX(-1);
+}
+
+.Artemiy {
+    font-family: "restless";
+    color: rgb(255, 89, 0);
+}
+
+.Stanley {
+    font-family: "lima";
+    color: rgb(130, 00, 00);
+}
+
+.Sammy {
+    font-family: "grimace";
+    color: rgb(0, 112, 103);
+}
+
+.Cecilia {
+    font-family: "shatter";
+    color: rgb(145, 45, 85);
+}
+
+.Brad {
+    font-family: "quick";
+    color: rgb(222, 129, 0);
+}
+
+.Ashley {
+    font-family: "soda";
+    color: rgb(213, 124, 188);
+}
+
+.Zack {
+    font-family: "pc";
+    color: rgb(48, 85, 52);
+}
+
+.Gavril {
+    font-family: "maj";
+    color: rgb(222, 183, 179);
+}
+
+.Lilith {
+    font-family: "wort";
+    color: rgb(134, 77, 105);
+}
+
+.Brandon {
+    font-family: "hanaley";
+    text-shadow: -1.5px -1.5px 0 #ffffff, 1.5px -1.5px 0 #ffffff, -1.5px 1.5px 0 #ffffff, -1.5px 1.5px 0 #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.Death {
+    font-family: "restless";
+    color: rgb(66, 66, 66);
+}
+
+.bg {
+   position: absolute;
+}
+
+.overlay {
+    position: absolute;
+ }
+
+.button {
+    cursor: pointer;
+    font-size: 80px;
+    margin-bottom: -30px;
+}
+
+.box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+}
+
+h1 {
+    font-family: "h1";
+    margin-bottom: -30px; 
+    color: var(--color1);
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "h2";
+    margin: 2px; 
+    color: white;
+    font-size: 35px;
+}
+
+a {
+    color: var(--color1);
+    text-decoration: underline 2px var(--color1);
+}
+ 
+a:visited {
+    text-decoration: underline 2px var(--color1);
+    color: var(--color1);
+}
+
+@media screen and (max-width: 730px) {    
+    h1 {
+      font-size: 9vw;
+    }
+    
+    h2 {
+      font-size: 6vw;
+    }
+
+    img {
+        max-width: 97vw;
+    }
+
+    .visual {
+        width: 97vw;
+    }
+
+    .char {
+        max-width: 50vw;
+        max-height: 50vw;
+    }
+
+    .char2 {
+        max-width: 50vw;
+        max-height: 50vw;
+    }
+
+    .dialogueBox {
+        min-width: 90vw;
+    }
+
+    .box {
+        max-width: 90vw;
+    }
+}
