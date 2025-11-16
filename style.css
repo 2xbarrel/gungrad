@@ -180,6 +180,14 @@ a:visited {
         max-width: 90vw;
     }
 
+    .bug {
+        max-width: 90vw;
+    }
+
+    .sin {
+        max-width: 90vw;
+    }
+    
     .fallinwaltuhs {
         width: 100vw;
         background-image: url("blansks1.svg");

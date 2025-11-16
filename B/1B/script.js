@@ -1672,5 +1672,345 @@ const script = [
     "talker": "char1",
     "say": "Yeah... That's what I THOUGHT."
   },
+  { //dialogue 113
+    "bg": "1blilithHouse2",
+    "overlay": "overlay",
+    "char1": {
+      "emotion": "BADASS", 
+      "animation": "inactive",
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "animation": "active",
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "Yeah, exactly.... ANYWAY"
+  },
+  { //dialogue 114
+    "bg": "1blilithHouse2",
+    "overlay": "lilithinvite",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "Cmere, tell me something about yourself"
+  },
+  { //dialogue 115
+    "bg": "1blilithHouse2",
+    "overlay": "lilithinvite",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "..... Why?"
+  },
+  { //dialogue 116
+    "bg": "1blilithHouse2",
+    "overlay": "lilithinvite",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "Y'know, to get to know each other better!"
+  },
+  { //dialogue 117
+    "bg": "1blilithHouse2",
+    "overlay": "lilithinvite",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "...."
+  },
+  { //dialogue 118
+    "bg": "1blilithHouse2",
+    "overlay": "lilithinvite",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": ".... I see what you're trying to do demon!"
+  },
+  { //dialogue 119
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk1",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "And I do see that in your desparate attempts of defeating me you're trying to learn my weakness!"
+  },
+  { //dialogue 120
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk1",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "But I will let you know that I, Gavril, Higher Angel of 45'th divine troop, HAVE NONE!"
+  },
+  { //dialogue 121
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk2",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "Mhm, sure you don't, big guy."
+  },
+  { //dialogue 122
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk3",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "I was wondering though, why did you get banished?"
+  },
+  { //dialogue 123
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk3",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "But it's completely fine if you don't want to talk about it."
+  },
+  { //dialogue 124
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk4",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "...."
+  },
+  { //dialogue 125
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk5",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "Lesser Angel under my command has gone missing during her internship."
+  },
+  { //dialogue 126
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk6",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "And even though I was not responsible for her actions during it"
+  },
+  { //dialogue 127
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk6",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "I was still blamed for it... Only because I'm her commander and there was no one else to blame."
+  },
+  { //dialogue 128
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk7",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "Oh... I'm sorry."
+  },
+  { //dialogue 128
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk8",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "Why even care about it, demon!"
+  },
+  { //dialogue 129
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk8",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "How did YOU even end up here?"
+  },
+  { //dialogue 130
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk3",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "OH! Welllllllllll...."
+  },
+  { //dialogue 131
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk3",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "I don't really know how to explain it."
+  },
+  { //dialogue 132
+    "bg": "1blilithHouse2",
+    "overlay": "1btalk3",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char2",
+    "say": "Let's just say, I saw the Devil's throne and it was empty."
+  },
+  { //dialogue 133
+    "bg": "1blilithHouse2",
+    "overlay": "despair3",
+    "char1": {
+      "emotion": "BADASS", 
+      "name": "Gavril"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "..... Huh?"
+  },
+  { //dialogue 134
+    "bg": "1blilithHouse2",
+    "overlay": "blackscreen1b",
+    "char1": {
+      "emotion": "IDLE", 
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "End of chapter 1-B"
+  },
+  { //dialogue 135
+    "bg": "1blilithHouse2",
+    "overlay": "blackscreen1b",
+    "char1": {
+      "emotion": "IDLE", 
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "HAPPY2", 
+      "name": "Lilith"
+    },
+    "talker": "char1",
+    "say": "Thank you for reading!"
+  },
 ];
-const exit = "index.html";
+const exit = "../../index.html";
+
+// this shit is so ass...
