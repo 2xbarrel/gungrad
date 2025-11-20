@@ -14,8 +14,8 @@
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
+    margin-top: 10px;
+    /* min-height: 100vh; */
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body {
     margin: 5px;
     padding: 20px;
     width: 720px;
-    height: 750px;
+    max-height: 850px;
 }
 
 .visual {
@@ -125,10 +125,12 @@ h1 {
     position: absolute;
     padding: 7px;
     min-height: 200px;
+    max-height: 200px;
     width: 510px;
     background-color: #000000c5;
     z-index: 4;
     bottom: 0;
+    top: 700px;
 }
 
 .button {
@@ -137,4 +139,15 @@ h1 {
     right: 0;
     bottom: 0;
     cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {   
+    /* .box {
+        height: 10vh;
+        width: 10vh;
+    } */
+
+    .dialogueBox {
+        width: 10vh;
+    }
 }
