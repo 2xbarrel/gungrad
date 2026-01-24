@@ -281,7 +281,7 @@ const script = [
   },
   { //dialogue 21
     "bg": "laziestbarever",
-    "overlay": "1bOV1",
+    "overlay": "blackscreen1b",
     "char1": {
       "emotion": "IDLE",
       "animation": "active",
@@ -296,7 +296,7 @@ const script = [
   },
   { //dialogue 22
     "bg": "laziestbarever",
-    "overlay": "1bOV1",
+    "overlay": "blackscreen1b",
     "char1": {
       "emotion": "HAT",
       "animation": "appear",
@@ -311,7 +311,7 @@ const script = [
   },
   { //dialogue 23
     "bg": "laziestbarever",
-    "overlay": "1bOV1",
+    "overlay": "blackscreen1b",
     "char1": {
       "emotion": "HAT",
       "name": "Gavril"

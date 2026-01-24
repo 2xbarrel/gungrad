@@ -109,6 +109,54 @@ const animations = {
             opacity: 1 
         },
     ],
+    "sad": [
+        { 
+            transform: "translateY(-25px)",
+            opacity: 0
+        },
+        { 
+            transform: "translateY(0px)",
+            opacity: 1
+        },
+    ],
+    "shiver": [
+        {
+            transform: "translateX(0)",
+            opacity: 0
+        },
+        { 
+            transform: "translateX(15px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateX(-15px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateX(15px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateX(-15px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateX(15px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateX(0)",
+            opacity: 1 
+        },
+    ],
+    "noise": [
+        { 
+            opacity: 0
+        },
+        { 
+            opacity: 1
+        },
+    ],
 };
 
 const timings = {
@@ -169,10 +217,28 @@ const timings = {
         iterations: 1,
         fill: "forwards",
     },
+    "sad": {
+        duration: 600,
+        iterations: 1,
+        fill: "forwards",
+    },
+    "shiver": {
+        duration: 200,
+        iterations: 1,
+        fill: "forwards",
+    },
+    "noise": {
+        duration: 1,
+        iterations: "1",
+        fill: "forwards",
+    },
 };
 
 const extraExtensions = {
     "angry": ".gif",
+    "sad": ".gif",
+    "shiver": ".gif",
+    "noise": ".gif",
 };
 
 const extensions = {
@@ -182,7 +248,9 @@ const extensions = {
     "HAPPY": ".png",
     "HAPPY2": ".png",
     "ANGRY": ".png",
+    "ANGRY1": ".png",
     "ANGRY2": ".png",
+    "SAD": ".png",
     "SURPRISED": ".png",
     "CONFUSED": ".png",
     "UPSET": ".png",
@@ -190,8 +258,10 @@ const extensions = {
     "HAT2": ".png",
     "AWE": ".png",
     "WET": ".png",
+    "SHOCK": ".png",
     "BADASS": ".png",
     "BADASS2": ".png",
+    "BADASS3": ".png",
     "DISRESPECTFUL": ".png",
     "DISRESPECTFUL2": ".png",
     "DISRESPECTFUL3": ".png",
@@ -206,8 +276,13 @@ const extensions = {
 };
 
 const extensionsOverlay = {
+    "1A": ".png",
+    "1Ablackscreen": ".png",
     "overlay": ".png",
     "overlay1A": ".png",
+    "overlay1A2": ".png",
+    "office1": ".png",
+    "office2": ".png",
     "despair1": ".png",
     "despair2": ".png",
     "despair3": ".png",
@@ -224,6 +299,10 @@ const extensionsOverlay = {
     "1btalk6": ".png",
     "1btalk7": ".png",
     "1btalk8": ".png",
+    "711ov": ".png",
+    "zacklol": ".png",
+    "zacklol2": ".png",
+    "zacklol3": ".png",
     "blackscreen1b": ".png",
     "lilithhold2": ".gif",
     "1Brain": ".gif",
@@ -315,7 +394,10 @@ async function coolText() {
     let speed = 50;
     let dialogueBetter = script[dialogueNum];
     
+    let voice = new Audio(`../../sounds/${dialogueBetter[dialogueBetter["talker"]]["name"]}.ogg`);
+
     for (let i = 0; i < dialogueBetter["say"].length; i++) {
+        voice.play();
         if (!coolTextRunning) {
             break;
         }

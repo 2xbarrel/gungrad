@@ -6,6 +6,7 @@ for (const dialogue of script) {
         `../../overlays/${dialogue["overlay"]}${extensionsOverlay[dialogue["overlay"]]}`,
     );
     for (const charName of ["char1", "char2"]) {
+        allmyfellas.push(`../../sounds/${dialogue[charName]["name"]}.ogg`);
         allmyfellas.push(`../../CharacterSprites/${dialogue[charName]["name"]}${dialogue[charName]["emotion"]}${extensions[dialogue[charName]["emotion"]]}`);
         if (dialogue[charName]["extra"] && dialogue[charName]["extra"] !== "disappear") {
             allmyfellas.push(`../../extras/${dialogue[charName]["extra"]}${extraExtensions[dialogue[charName]["extra"]]}`);
@@ -13,12 +14,17 @@ for (const dialogue of script) {
     }
 };
 
-const fakeImgs = [];
+const fakes = [];
 
 console.log(allmyfellas);
 
 for (const sprite of allmyfellas) {
-    const fakeImg = new Image();
-    fakeImg.src = sprite;
-    fakeImgs.push(fakeImg);
+    if (sprite.endsWith(".ogg")) {
+        const fakeAudio = new Audio(sprite);
+        fakes.push(fakeAudio);
+    } else {
+        const fakeImg = new Image();
+        fakeImg.src = sprite;
+        fakes.push(fakeImg);
+    }
 }

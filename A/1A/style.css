@@ -1,11 +1,16 @@
 @font-face {
     font-family: "h2";
-    src: url("fonts/ferrum.otf");
+    src: url("../../fonts/PatrickHand-Regular.ttf");
 }
 
 @font-face {
     font-family: "text";
-    src: url("fonts/Antique\ Book\ Cover.otf");
+    src: url("../../fonts/Children.ttf");
+}
+
+@font-face {
+    font-family: "title";
+    src: url("../../fonts/Fyodor-Bold.ttf");
 }
 
 body {
@@ -30,18 +35,19 @@ body {
 
 .visual {
     position: relative;
-    width: 1100px;
+    width: 900px;
     height: auto;
     justify-content: center;
     display: flex;
     flex-direction: row;
 }
 
-/* img {
-    max-width: 720px;
-} */
+img {
+    max-width: 900px;
+}
 
 .bg {
+    max-width: 900px;
     position: absolute;
 }
  
@@ -50,38 +56,42 @@ body {
 }
 
 .char {
+    max-width: 450px;
     /* position: absolute; */
     opacity: 0;
 }
 
 .char2 {
+    max-width: 450px;
     /* position: absolute; */
     opacity: 0;
     transform: scaleX(-1);
 }
 
 .extra1 {
+    max-width: 450px;
     left: 0;
     position: absolute;
     opacity: 0;
 }
 
 .extra2 {
+    max-width: 450px;
     right: 0;
     position: absolute;
     opacity: 0;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: "text";
     margin-top: -3px;
     color: white;
 }
 
 h1 {
-    margin-top: -80px;
-    color: white;
+    font-family: "title";
+    color: rgb(143, 100, 62);
 }
 
 .Mage {
@@ -98,23 +108,48 @@ h1 {
 
 .Stanley {
     color: rgb(134, 43, 0);
+    -webkit-text-stroke: 1px rgb(134, 43, 0);
+}
+
+.Zack {
+    color: rgb(23, 85, 38);
+    -webkit-text-stroke: 1px rgb(23, 85, 38);
+}
+
+.Sammy {
+    color: rgb(0, 111, 155);
+    -webkit-text-stroke: 1px rgb(0, 111, 155);
+}
+
+.Brad {
+    color: rgb(214, 139, 0);
+    -webkit-text-stroke: 1px rgb(214, 139, 0);
+}
+
+.STOPLOOKINGHERE1A {
+    color: rgba(23, 85, 38, 0);
+}
+
+.STOPLOOKINGHERE {
+    color: rgba(23, 85, 38, 0);
 }
 
 .dialogueBox {
-    border-color: white;
-    border: 3px solid white;
-    position: absolute;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: 3px solid rgb(143, 100, 62);
     padding: 7px;
     min-height: 200px;
-    width: 830px;
+    max-height: 200px;
+    width: 700px;
     background-color: #000000c5;
-    z-index: 4;
-    bottom: 0;
+    /* bottom: 0; */
 }
 .button {
-    position: absolute;
+    z-index: 1;
+    margin-top: -60px;
+    width: 700px;
+    text-align: end;
     font-size: 40px;
-    right: 0;
-    bottom: 0;
     cursor: pointer;
 }

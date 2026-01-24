@@ -32,6 +32,22 @@ const animations = {
       top: 0,
     },
   ],
+  fadeInBROKE: [
+    {
+      filter: "grayscale(100%)",
+    },
+    {
+      filter: "grayscale(0%)",
+    },
+  ],
+  fadeOutBROKE: [
+    {
+      filter: "grayscale(0%)",
+    },
+    {
+      filter: "grayscale(100%)",
+    },
+  ],
 };
 
 const timings = {
@@ -58,17 +74,38 @@ for (const line of ["a", "b"]) {
 }
 
 chaptersBug.addEventListener("pointerenter", (event) => {
-  cover1.animate(animations["fadeIn"], timings["in"]);
+  if (screen.width <= 750){
+    cover1.animate(animations["fadeInBROKE"], timings["in"]);
+  }
+  else {
+      cover1.animate(animations["fadeIn"], timings["in"]);
+  }
 })
 
 chaptersSin.addEventListener("pointerenter", (event) => {
-  cover2.animate(animations["fadeIn"], timings["in"]);
+
+  if (screen.width <= 750){
+    cover2.animate(animations["fadeInBROKE"], timings["in"]);
+  }
+  else {
+      cover2.animate(animations["fadeIn"], timings["in"]);
+  }
 })
 
 chaptersBug.addEventListener("pointerleave", (event) => {
-  cover1.animate(animations["fadeOut"], timings["out"]);
+  if (screen.width <= 750){
+    cover1.animate(animations["fadeOutBROKE"], timings["in"]);
+  }
+  else {
+      cover1.animate(animations["fadeOut"], timings["out"]);
+  }
 })
 
 chaptersSin.addEventListener("pointerleave", (event) => {
-  cover2.animate(animations["fadeOut"], timings["out"]);
+  if (screen.width <= 750){
+    cover2.animate(animations["fadeOutBROKE"], timings["in"]);
+  }
+  else {
+    cover2.animate(animations["fadeOut"], timings["out"]);
+  }
 })

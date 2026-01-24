@@ -142,12 +142,13 @@ h1 {
 }
 
 @media screen and (max-width: 750px) {   
-    /* .box {
-        height: 10vh;
-        width: 10vh;
-    } */
-
-    .dialogueBox {
-        width: 10vh;
+    .box {
+        min-width: 50vh;
+    }
+    .visual {
+        min-width: 50vh;
+    }
+    img {
+        max-width: 50vh;
     }
 }
