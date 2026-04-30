@@ -277,7 +277,7 @@ const script = [ // let the pain begin
       "name": "Stanley"
     },
     "talker": "char2",
-    "say": 'WHAT DO YOU MEAN "ALEADY"???'
+    "say": 'WHAT DO YOU MEAN "ALREADY"???'
   },
   { //dialogue 20
     "bg": "office",
