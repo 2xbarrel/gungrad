@@ -2122,5 +2122,5 @@ const script = [ // let the pain begin
     "say": `Thank you for reading!`
   },
 ];
-const exit = "index.html";
+const exit = "../../index.html";
 
