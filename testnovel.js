@@ -18,7 +18,15 @@ const animations = {
         { opacity: 0 },
         { opacity: 1 },
     ],
+    "appearFAST": [
+        { opacity: 0 },
+        { opacity: 1 },
+    ],
     "disappear": [
+        { opacity: 1 },
+        { opacity: 0 },
+    ],
+    "disappearFAST": [
         { opacity: 1 },
         { opacity: 0 },
     ],
@@ -77,6 +85,56 @@ const animations = {
     "1BmapREVERSAL": [
         { transform: "translateX(300px)" },
         { transform: "translateX(0px)" },
+    ],
+    "1Aride": [
+        { 
+            transform: "translateY(10px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateY(15px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateY(-10px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateY(15px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateY(10px)",
+            opacity: 1
+        },
+    ],
+    "1Aride2": [
+        { 
+            transform: "translateY(5px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateY(10px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateY(-5px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateY(10px)",
+            opacity: 1
+        },
+        { 
+            transform: "translateY(5px)",
+            opacity: 1
+        },
+    ],
+    "ridestop": [
+        { 
+            transform: "translateY(0px)",
+            opacity: 1
+        }
     ],
     // extra animations 
     "angry": [
@@ -157,6 +215,7 @@ const animations = {
             opacity: 1
         },
     ],
+
 };
 
 const timings = {
@@ -170,8 +229,23 @@ const timings = {
         iterations: 1,
         fill: "forwards",
     },
+    "ridestop": {
+        duration: 1,
+        iterations: 10,
+        fill: "forwards",
+    },
+    "appearFAST": {
+        duration: 1,
+        iterations: 10,
+        fill: "forwards",
+    },
     "disappear": {
         duration: 400,
+        iterations: 1,
+        fill: "forwards",
+    },
+    "disappearFAST": {
+        duration: 10,
         iterations: 1,
         fill: "forwards",
     },
@@ -198,6 +272,18 @@ const timings = {
         duration: 1000,
         iterations: 1,
         fill: "forwards",
+    },
+    "1Aride": {
+        easing: "linear",
+        duration: 400,
+        iterations: Infinity, 
+        fill: "none",
+    },
+    "1Aride2": {
+        easing: "linear",
+        duration: 500,
+        iterations: Infinity, 
+        fill: "none",
     },
     "1Bmap": {
         easing: "linear",
@@ -259,13 +345,22 @@ const extensions = {
     "AWE": ".png",
     "WET": ".png",
     "SHOCK": ".png",
+    "SHOCK1": ".png",
+    "SHOCK2": ".png",
+    "SHOCK3": ".png",
+    "SHOCK4": ".png",
+    "SHOCK5": ".png",
     "BADASS": ".png",
     "BADASS2": ".png",
     "BADASS3": ".png",
+    "BADASS4": ".png",
+    "BADASS5": ".png",
     "DISRESPECTFUL": ".png",
     "DISRESPECTFUL2": ".png",
     "DISRESPECTFUL3": ".png",
     "DISRESPECTFUL4": ".png",
+    "RIDE": ".png",
+    "RIDE1": ".png",
     // swaglineswaglineswaglineswaglineswag
     "SCARED": ".gif",
     "LAUGH": ".gif",
@@ -304,9 +399,23 @@ const extensionsOverlay = {
     "zacklol2": ".png",
     "zacklol3": ".png",
     "blackscreen1b": ".png",
+    "thatdamnsmile": ".png",
+    "daddychill": ".png",
+    "stanleylearnt": ".png",
+    "gracedead": ".png",
+    "gracedead0": ".png",
+    "gracedead2": ".png",
+    "gracedead3": ".png",
+    "gracedead4": ".png",
+    "ripgrace": ".png",
+    "biggun1": ".png",
     "lilithhold2": ".gif",
     "1Brain": ".gif",
     "lilithinvite": ".gif",
+    "biggunblur": ".gif",
+    "DAMN": ".gif",
+    "siren": ".webp",
+    "carov": ".webp",
 };
 
 function setChar(charName, dialogue) {
@@ -394,10 +503,10 @@ async function coolText() {
     let speed = 50;
     let dialogueBetter = script[dialogueNum];
     
-    let voice = new Audio(`../../sounds/${dialogueBetter[dialogueBetter["talker"]]["name"]}.ogg`);
+    // let voice = new Audio(`../../sounds/${dialogueBetter[dialogueBetter["talker"]]["name"]}.ogg`);
 
     for (let i = 0; i < dialogueBetter["say"].length; i++) {
-        voice.play();
+        // voice.play();
         if (!coolTextRunning) {
             break;
         }
