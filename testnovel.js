@@ -422,13 +422,13 @@ function setChar(charName, dialogue) {
     if (dialogue[charName]) {
         let char = document.getElementById(charName);
         let extra = document.getElementById(`extra${charName[charName.length - 1]}`);
-        let imageSrc = `../../CharacterSprites/${dialogue[charName]["name"]}${dialogue[charName]["emotion"]}${extensions[dialogue[charName]["emotion"]]}`;
+        let imageSrc = `CharacterSprites/${dialogue[charName]["name"]}${dialogue[charName]["emotion"]}${extensions[dialogue[charName]["emotion"]]}`;
         let animationName = dialogue[charName]["animation"];
         let extraName = dialogue[charName]["extra"];
         char.setAttribute("src", imageSrc);
         if (extraName) {
             if (extraName !== "disappear") {
-                let extraImgSrc = `../../extras/${extraName}${extraExtensions[extraName]}`;
+                let extraImgSrc = `extras/${extraName}${extraExtensions[extraName]}`;
                 extra.setAttribute("src", extraImgSrc);
             }
             let animation = animations[extraName];
@@ -466,8 +466,8 @@ function setChar(charName, dialogue) {
 let dialogueNum = 0;
 let coolTextRunning = false;
 
-background.src = `../../backgrounds/${dialogueBetter["bg"]}.png`;
-overlay.src = `../../overlays/${dialogueBetter["overlay"]}${extensionsOverlay[dialogueBetter["overlay"]]}`;
+background.src = `backgrounds/${dialogueBetter["bg"]}.png`;
+overlay.src = `overlays/${dialogueBetter["overlay"]}${extensionsOverlay[dialogueBetter["overlay"]]}`;
 dialogue.innerHTML = `<span class ="${dialogueBetter[dialogueBetter["talker"]]["name"]}">${dialogueBetter[dialogueBetter["talker"]]["name"]}:</span><p id="say"></p>`;
 coolText();
 
@@ -486,8 +486,8 @@ function talkie() {
     setChar("char1", dialogueBetter);
     setChar("char2", dialogueBetter);
     
-    background.src = `../../backgrounds/${dialogueBetter["bg"]}.png`;
-    overlay.src = `../../overlays/${dialogueBetter["overlay"]}${extensionsOverlay[dialogueBetter["overlay"]]}`;
+    background.src = `backgrounds/${dialogueBetter["bg"]}.png`;
+    overlay.src = `overlays/${dialogueBetter["overlay"]}${extensionsOverlay[dialogueBetter["overlay"]]}`;
     dialogue.innerHTML = `<span class ="${dialogueBetter[dialogueBetter["talker"]]["name"]}">${dialogueBetter[dialogueBetter["talker"]]["name"]}:</span><p id="say"></p>`;
     console.log(dialogueNum);
 };
