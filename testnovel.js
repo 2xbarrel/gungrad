@@ -177,6 +177,16 @@ const animations = {
             opacity: 1
         },
     ],
+    "fatdart": [
+        { 
+            transform: "translateY(-25px)",
+            opacity: 0
+        },
+        { 
+            transform: "translateY(0px)",
+            opacity: 1
+        },
+    ],
     "shiver": [
         {
             transform: "translateX(0)",
@@ -298,6 +308,11 @@ const timings = {
         fill: "forwards",
     },
     // extra timings
+    "fatdart": {
+        duration: 300,
+        iterations: 1,
+        fill: "forwards",
+    },
     "angry": {
         duration: 300,
         iterations: 1,
@@ -321,6 +336,7 @@ const timings = {
 };
 
 const extraExtensions = {
+    "fatdart": ".png",
     "angry": ".gif",
     "sad": ".gif",
     "shiver": ".gif",
@@ -416,6 +432,9 @@ const extensionsOverlay = {
     "DAMN": ".gif",
     "siren": ".webp",
     "carov": ".webp",
+// chapters 2
+    "2Aov": ".png",
+
 };
 
 function setChar(charName, dialogue) {

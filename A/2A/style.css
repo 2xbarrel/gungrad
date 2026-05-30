@@ -1,16 +1,25 @@
 @font-face {
     font-family: "h2";
-    src: url("../../fonts/PatrickHand-Regular.ttf");
+    src: url("../../fonts/dealerplate\ california.otf");
 }
 
 @font-face {
     font-family: "text";
-    src: url("../../fonts/Children.ttf");
+    src: url("../../fonts/dealerplate\ california.otf");
 }
 
 @font-face {
     font-family: "title";
     src: url("../../fonts/Fyodor-Bold.ttf");
+}
+
+@font-face {
+    font-family: "dialogue";
+    src: url("../../fonts/decterm.ttf");
+}
+
+:root {
+    --color1: rgb(0, 110, 31);
 }
 
 body {
@@ -34,21 +43,38 @@ body {
 }
 
 .visual {
+    margin-bottom: 10px;
     position: relative;
-    width: 900px;
-    height: auto;
+    max-width: 1247px;
+    max-height: 450px;
     justify-content: center;
     display: flex;
     flex-direction: row;
 }
 
+.container {
+    justify-content: center;
+    display: flex;
+    max-width: 280px;
+    max-height: 450px;
+}
+
+.container2 {
+    justify-content: center;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 677px;
+    max-height: 450px;
+}
+
 img {
-    max-width: 900px;
+    max-width: 677px;
 }
 
 .bg {
-    max-width: 900px;
-    position: absolute;
+    max-width: 677px;
+    /* position: absolute; */
 }
  
 .overlay {
@@ -56,34 +82,34 @@ img {
 }
 
 .char {
-    max-width: 450px;
+    max-width: 280px;
     /* position: absolute; */
     opacity: 0;
 }
 
 .char2 {
-    max-width: 450px;
+    max-width: 280px;
     /* position: absolute; */
     opacity: 0;
-    transform: scaleX(-1);
+    /* transform: scaleX(-1); */
 }
 
 .extra1 {
     max-width: 450px;
-    left: 0;
+    /* left: 0; */
     position: absolute;
     opacity: 0;
 }
 
 .extra2 {
     max-width: 450px;
-    right: 0;
+    /* right: 0; */
     position: absolute;
     opacity: 0;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-family: "text";
     margin-top: -3px;
     color: white;
@@ -91,7 +117,12 @@ h2 {
 
 h1 {
     font-family: "title";
-    color: rgb(143, 100, 62);
+    color: var(--color1);
+}
+
+p {
+    font-family: "dialogue";
+    font-size: 30px;
 }
 
 .Mage {
@@ -136,19 +167,19 @@ h1 {
 
 .dialogueBox {
     margin-top: 5px;
-    border-radius: 15px;
-    border: 3px solid rgb(143, 100, 62);
+    /* border-radius: 15px; */
+    border: 3px solid var(--color1);
     padding: 7px;
     min-height: 200px;
     max-height: 200px;
-    width: 700px;
+    width: 800px;
     background-color: #000000c5;
     /* bottom: 0; */
 }
 .button {
     z-index: 1;
     margin-top: -60px;
-    width: 700px;
+    width: 800px;
     text-align: end;
     font-size: 40px;
     cursor: pointer;
