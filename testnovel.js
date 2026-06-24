@@ -377,6 +377,7 @@ const extensions = {
     "DISRESPECTFUL4": ".png",
     "RIDE": ".png",
     "RIDE1": ".png",
+    "ANNOYED": ".png",
     // swaglineswaglineswaglineswaglineswag
     "SCARED": ".gif",
     "LAUGH": ".gif",
@@ -519,13 +520,10 @@ async function coolText() {
     coolTextRunning = true;
 
     let say = document.getElementById("say");
-    let speed = 50;
     let dialogueBetter = script[dialogueNum];
-    
-    // let voice = new Audio(`../../sounds/${dialogueBetter[dialogueBetter["talker"]]["name"]}.ogg`);
+    let speed = dialogueBetter["textspeed"]; 
 
     for (let i = 0; i < dialogueBetter["say"].length; i++) {
-        // voice.play();
         if (!coolTextRunning) {
             break;
         }
@@ -553,4 +551,4 @@ button.addEventListener("click", async () => {
         await sleep(50);
     }
     coolText();
-});
+}); 

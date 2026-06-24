@@ -1,5 +1,5 @@
 const script = [
-  { //dialogue 0
+  { "textspeed": 90, //0
     "bg": "bg1B",
     "overlay": "overlay",
     "char1": {
@@ -13,7 +13,7 @@ const script = [
     "talker": "char2",
     "say": "So..."
   },
-  { //dialogue 1
+  { "textspeed": 90, //1
     "bg": "1Bbg1",
     "overlay": "overlay",
     "char1": {
@@ -27,7 +27,7 @@ const script = [
     "talker": "char2",
     "say": "Will you confess now?"
   },
-  { //dialogue 2
+  { "textspeed": 90, //2
     "bg": "1Bbg2",
     "overlay": "overlay",
     "char1": {
@@ -41,7 +41,7 @@ const script = [
     "talker": "char1",
     "say": "...."
   },
-  { //dialogue 3
+  { "textspeed": 50, //3
     "bg": "1Bbg3",
     "overlay": "overlay",
     "char1": {
@@ -55,7 +55,7 @@ const script = [
     "talker": "char1",
     "say": "I told you everything I knew..."
   },
-  { //dialogue 4
+  { "textspeed": 90, //4
     "bg": "1Bbg4",
     "overlay": "overlay",
     "char1": {
@@ -69,7 +69,7 @@ const script = [
     "talker": "char2",
     "say": "Don't make us get to drastic measures"
   },
-  { //dialogue 5
+  { "textspeed": 80, //5
     "bg": "1Bbg3",
     "overlay": "overlay",
     "char1": {
@@ -83,7 +83,7 @@ const script = [
     "talker": "char1",
     "say": "You broke my halo, ripped off my wings..."
   },
-  { //dialogue 6
+  { "textspeed": 80, //6
     "bg": "1Bbg3",
     "overlay": "overlay",
     "char1": {
@@ -97,7 +97,7 @@ const script = [
     "talker": "char1",
     "say": "You took everything I had, I'm no less than a mortal now"
   },
-  { //dialogue 7
+  { "textspeed": 80, //7
     "bg": "1Bbg3",
     "overlay": "overlay",
     "char1": {
@@ -111,7 +111,7 @@ const script = [
     "talker": "char1",
     "say": "What more can you do..."
   },
-  { //dialogue 8
+  { "textspeed": 90, //8
     "bg": "1Bbg5",
     "overlay": "overlay",
     "char1": {
@@ -125,7 +125,7 @@ const script = [
     "talker": "char2",
     "say": "I suppose you're right...."
   },
-  { //dialogue 9
+  { "textspeed": 90, //9
     "bg": "1Bbg6",
     "overlay": "overlay",
     "char1": {
@@ -139,7 +139,7 @@ const script = [
     "talker": "char2",
     "say": "You leave us with no other choice then."
   },
-  { //dialogue 10
+  { "textspeed": 30, //10
     "bg": "1Bbg7",
     "overlay": "overlay",
     "char1": {
@@ -153,7 +153,7 @@ const script = [
     "talker": "char2",
     "say": "GAH! YOU BASTARD!"
   },
-  { //dialogue 11
+  { "textspeed": 90, //11
     "bg": "1Bbg8",
     "overlay": "overlay",
     "char1": {
@@ -167,7 +167,7 @@ const script = [
     "talker": "char2",
     "say": "........"
   },
-  { //dialogue 12
+  { "textspeed": 90, //12
     "bg": "1Bbg8",
     "overlay": "overlay",
     "char1": {
@@ -181,7 +181,7 @@ const script = [
     "talker": "char2",
     "say": "... I had higher hopes for you, Gavril,"
   },
-  { //dialogue 13
+  { "textspeed": 80, //13
     "bg": "1Bbg8",
     "overlay": "overlay",
     "char1": {
@@ -195,7 +195,7 @@ const script = [
     "talker": "char2",
     "say": "But your behavious has been unacceptable."
   },
-  { //dialogue 14
+  { "textspeed": 80, //14
     "bg": "1Bbg8",
     "overlay": "overlay",
     "char1": {
@@ -209,7 +209,7 @@ const script = [
     "talker": "char2",
     "say": "I didn't want it to end up like this."
   },
-  { //dialogue 15
+  { "textspeed": 50, //15
     "bg": "1Bbg9",
     "overlay": "overlay",
     "char1": {
@@ -223,7 +223,7 @@ const script = [
     "talker": "char1",
     "say": "What? What do you mean?"
   },
-  { //dialogue 16
+  { "textspeed": 40, //16
     "bg": "1Bbg10",
     "overlay": "overlay",
     "char1": {
@@ -237,7 +237,7 @@ const script = [
     "talker": "char1",
     "say": "No... You can't do this to me!"
   },
-  { //dialogue 17
+  { "textspeed": 30, //17
     "bg": "1Bbg11",
     "overlay": "overlay",
     "char1": {
@@ -251,7 +251,7 @@ const script = [
     "talker": "char1",
     "say": "It wasn't my fault! She fled on her own!"
   },
-  { //dialogue 18
+  { "textspeed": 30, //18
     "bg": "1Bbg12",
     "overlay": "overlay",
     "char1": {
@@ -265,7 +265,7 @@ const script = [
     "talker": "char1",
     "say": "I HAD NOTHING TO DO WITH IT!"
   },
-  { //dialogue 19
+  { "textspeed": 30, //19
     "bg": "2",
     "overlay": "1bOV1",
     "char1": {
@@ -279,7 +279,7 @@ const script = [
     "talker": "char1",
     "say": "YOU CAN'T-"
   },
-  { //dialogue 21
+  { "textspeed": 80, //21
     "bg": "laziestbarever",
     "overlay": "blackscreen1b",
     "char1": {
@@ -294,7 +294,7 @@ const script = [
     "talker": "char2",
     "say": "................."
   },
-  { //dialogue 22
+  { "textspeed": 50, //22
     "bg": "laziestbarever",
     "overlay": "blackscreen1b",
     "char1": {
@@ -309,7 +309,7 @@ const script = [
     "talker": "char1",
     "say": "That was my story...."
   },
-  { //dialogue 23
+  { "textspeed": 50, //23
     "bg": "laziestbarever",
     "overlay": "blackscreen1b",
     "char1": {
@@ -323,7 +323,7 @@ const script = [
     "talker": "char1",
     "say": "I don't remember how much time passed since that cursed day..."
   },
-  { //dialogue 24
+  { "textspeed": 50, //24
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -337,7 +337,7 @@ const script = [
     "talker": "char2",
     "say": "Considering that you come here every single day"
   },
-  { //dialogue 25
+  { "textspeed": 50, //25
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -351,7 +351,7 @@ const script = [
     "talker": "char2",
     "say": "And everytime you do, you tell me this story"
   },
-  { //dialogue 26
+  { "textspeed": 50, //26
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -365,7 +365,7 @@ const script = [
     "talker": "char2",
     "say": "I'd say it's been a week."
   },
-  { //dialogue 27
+  { "textspeed": 80, //27
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -379,7 +379,7 @@ const script = [
     "talker": "char1",
     "say": "A whole week..... every second feels like an eternity"
   },
-  { //dialogue 28
+  { "textspeed": 50, //28
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -393,7 +393,7 @@ const script = [
     "talker": "char2",
     "say": "Yeah that's great and all pal, but you still havent paid for at least 15 drinks."
   },
-  { //dialogue 29
+  { "textspeed": 50, //29
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -407,7 +407,7 @@ const script = [
     "talker": "char1",
     "say": "Just put it on my tab...."
   },
-  { //dialogue 30
+  { "textspeed": 50, //30
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -421,7 +421,7 @@ const script = [
     "talker": "char2",
     "say": "You dont even have a tab."
   },
-  { //dialogue 31
+  { "textspeed": 90, //31
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -435,7 +435,7 @@ const script = [
     "talker": "char1",
     "say": "I thought that's like, a phrase you say when you can't pay..."
   },
-  { //dialogue 32
+  { "textspeed": 50, //32
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -449,7 +449,7 @@ const script = [
     "talker": "char2",
     "say": "So you can't pay after all."
   },
-  { //dialogue 33
+  { "textspeed": 90, //33
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -463,7 +463,7 @@ const script = [
     "talker": "char1",
     "say": "No......."
   },
-  { //dialogue 34
+  { "textspeed": 90, //34
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -477,7 +477,7 @@ const script = [
     "talker": "char2",
     "say": "......"
   },
-  { //dialogue 35
+  { "textspeed": 90, //35
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -491,7 +491,7 @@ const script = [
     "talker": "char1",
     "say": "......"
   },
-  { //dialogue 36
+  { "textspeed": 50, //36
     "bg": "laziestbarever",
     "overlay": "bar1B",
     "char1": {
@@ -506,7 +506,7 @@ const script = [
     "talker": "char2",
     "say": "......You know, you do have a really nice hat..."
   },
-  { //dialogue 37
+  { "textspeed": 50, //37
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -522,7 +522,7 @@ const script = [
     "talker": "char2",
     "say": "Great, awesome even."
   },
-  { //dialogue 38
+  { "textspeed": 50, //38
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -537,7 +537,7 @@ const script = [
     "talker": "char2",
     "say": "Lost my purpose, faith, God's light..."
   },
-  { //dialogue 39
+  { "textspeed": 50, //39
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -551,7 +551,7 @@ const script = [
     "talker": "char2",
     "say": "Hat...."
   },
-  { //dialogue 40
+  { "textspeed": 50, //40
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -565,7 +565,7 @@ const script = [
     "talker": "char2",
     "say": "What do I even do now..."
   },
-  { //dialogue 41
+  { "textspeed": 50, //41
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -580,7 +580,7 @@ const script = [
     "talker": "char2",
     "say": "Nothing more than an empty husk of an angel..."
   },
-  { //dialogue 42
+  { "textspeed": 30, //42
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -596,7 +596,7 @@ const script = [
     "talker": "char1",
     "say": "HIIIIIIIIIIIIIIII"
   },
-  { //dialogue 43
+  { "textspeed": 30, //43
     "bg": "1bStreet",
     "overlay": "despair1",
     "char1": {
@@ -610,7 +610,7 @@ const script = [
     "talker": "char1",
     "say": "HIHIHIHI IT'S SO GOOD TO SEE ANOTHER BANISHED HERE!!!"
   },
-  { //dialogue 44
+  { "textspeed": 30, //44
     "bg": "1bStreet",
     "overlay": "despair2",
     "char1": {
@@ -624,7 +624,7 @@ const script = [
     "talker": "char1",
     "say": "I thought I'd be the only one!"
   },
-  { //dialogue 45
+  { "textspeed": 30, //45
     "bg": "1bStreet",
     "overlay": "despair1",
     "char1": {
@@ -638,7 +638,7 @@ const script = [
     "talker": "char1",
     "say": "I'm Lilith, what's your name? How long have you been here?"
   },
-  { //dialogue 46
+  { "textspeed": 50, //46
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -652,7 +652,7 @@ const script = [
     "talker": "char1",
     "say": ".... You alright?"
   },
-  { //dialogue 47
+  { "textspeed": 90, //47
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -668,7 +668,7 @@ const script = [
     "talker": "char2",
     "say": "...."
   },
-  { //dialogue 48
+  { "textspeed": 30, //48
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -682,7 +682,7 @@ const script = [
     "talker": "char2",
     "say": "AAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!!!"
   },
-  { //dialogue 49
+  { "textspeed": 50, //49
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -698,7 +698,7 @@ const script = [
     "talker": "char1",
     "say": "Woah hey, easy now-"
   },
-  { //dialogue 50
+  { "textspeed": 30, //50
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -714,7 +714,7 @@ const script = [
     "talker": "char2",
     "say": "1-45 A DEMON ON THE PERIMETER"
   },
-  { //dialogue 51
+  { "textspeed": 30, //51
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -728,7 +728,7 @@ const script = [
     "talker": "char2",
     "say": "OPEN FIRE OPEN FIRE!!!!!"
   },
-  { //dialogue 52
+  { "textspeed": 50, //52
     "bg": "1bStreet",
     "overlay": "hisoda",
     "char1": {
@@ -744,7 +744,7 @@ const script = [
     "talker": "char1",
     "say": "Heyheyheyhey."
   },
-  { //dialogue 53
+  { "textspeed": 50, //53
     "bg": "1bStreet",
     "overlay": "hisoda",
     "char1": {
@@ -758,7 +758,7 @@ const script = [
     "talker": "char1",
     "say": "Look at me."
   },
-  { //dialogue 54
+  { "textspeed": 50, //54
     "bg": "1bStreet",
     "overlay": "lilithhold",
     "char1": {
@@ -772,7 +772,7 @@ const script = [
     "talker": "char1",
     "say": "Look at me..."
   },
-  { //dialogue 55
+  { "textspeed": 50, //55
     "bg": "1bStreet",
     "overlay": "lilithhold",
     "char1": {
@@ -786,7 +786,7 @@ const script = [
     "talker": "char1",
     "say": "I'm not going to hurt you."
   },
-  { //dialogue 56
+  { "textspeed": 90, //56
     "bg": "1bStreet",
     "overlay": "hisoda",
     "char1": {
@@ -800,7 +800,7 @@ const script = [
     "talker": "char2",
     "say": "....."
   },
-  { //dialogue 57
+  { "textspeed": 50, //57
     "bg": "1bStreet",
     "overlay": "hisoda2",
     "char1": {
@@ -814,7 +814,7 @@ const script = [
     "talker": "char2",
     "say": "What the fuck? Why?"
   },
-  { //dialogue 58
+  { "textspeed": 50, //58
     "bg": "1bStreet",
     "overlay": "hisoda2",
     "char1": {
@@ -828,7 +828,7 @@ const script = [
     "talker": "char2",
     "say": "Are you stupid?"
   },
-  { //dialogue 59
+  { "textspeed": 50, //59
     "bg": "1bStreet",
     "overlay": "lilithhold2",
     "char1": {
@@ -843,7 +843,7 @@ const script = [
     "talker": "char1",
     "say": "What? What do you mean?"
   },
-  { //dialogue 60
+  { "textspeed": 50, //60
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -857,7 +857,7 @@ const script = [
     "talker": "char2",
     "say": "You are a DEMON."
   },
-  { //dialogue 61
+  { "textspeed": 50, //61
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -871,7 +871,7 @@ const script = [
     "talker": "char2",
     "say": "I'm quite literally your natural enemy."
   },
-  { //dialogue 62
+  { "textspeed": 80, //62
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -887,7 +887,7 @@ const script = [
     "talker": "char1",
     "say": "So.... What?"
   },
-  { //dialogue 63
+  { "textspeed": 30, //63
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -903,7 +903,7 @@ const script = [
     "talker": "char2",
     "say": "SO WHAT!?"
   },
-  { //dialogue 64
+  { "textspeed": 30, //64
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -917,7 +917,7 @@ const script = [
     "talker": "char2",
     "say": "IT'S YOUR JOB TO HURT ME."
   },
-  { //dialogue 65
+  { "textspeed": 50, //65
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -933,7 +933,7 @@ const script = [
     "talker": "char1",
     "say": "Nah, I work at a bakery now!"
   },
-  { //dialogue 66
+  { "textspeed": 50, //66
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -947,7 +947,7 @@ const script = [
     "talker": "char1",
     "say": "My job is to make bread!"
   },
-  { //dialogue 67
+  { "textspeed": 90, //67
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -963,7 +963,7 @@ const script = [
     "talker": "char2",
     "say": "......Bread?"
   },
-  { //dialogue 68
+  { "textspeed": 30, //68
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -979,7 +979,7 @@ const script = [
     "talker": "char1",
     "say": "Bread!"
   },
-  { //dialogue 69
+  { "textspeed": 30, //69
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -995,7 +995,7 @@ const script = [
     "talker": "char2",
     "say": "WHAT ABOUT YOUR PURPOSE?! YOU AND I ARE THE FORCES OF GOOD AND EVIL!!!"
   },
-  { //dialogue 70
+  { "textspeed": 50, //70
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -1011,7 +1011,7 @@ const script = [
     "talker": "char1",
     "say": "I see you're VERY new here."
   },
-  { //dialogue 71
+  { "textspeed": 30, //71
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -1027,7 +1027,7 @@ const script = [
     "talker": "char2",
     "say": "NO IM NOT! The noble bartender said I have been here and entire week!"
   },
-  { //dialogue 72
+  { "textspeed": 50, //72
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -1043,7 +1043,7 @@ const script = [
     "talker": "char1",
     "say": "Where have you been staying all this time?"
   },
-  { //dialogue 73
+  { "textspeed": 90, //73
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -1059,7 +1059,7 @@ const script = [
     "talker": "char2",
     "say": "...."
   },
-  { //dialogue 74
+  { "textspeed": 80, //74
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -1073,7 +1073,7 @@ const script = [
     "talker": "char2",
     "say": "That's .... classified information..."
   },
-  { //dialogue 75
+  { "textspeed": 50, //75
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -1089,7 +1089,7 @@ const script = [
     "talker": "char1",
     "say": "Listen, I understand how hard it can be adapting to this new way of life,"
   },
-  { //dialogue 76
+  { "textspeed": 50, //76
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -1103,7 +1103,7 @@ const script = [
     "talker": "char1",
     "say": "If you need somewhere to stay for a while you can come to my place!"
   },
-  { //dialogue 77
+  { "textspeed": 30, //77
     "bg": "1bStreet",
     "overlay": "overlay",
     "char1": {
@@ -1119,7 +1119,7 @@ const script = [
     "talker": "char2",
     "say": "TO EVEN THINK THAT I, A NOBLE HIGHER ANGEL OF THE 45'TH TROOP WILL ACCEPT THIS!"
   },
-  { //dialogue 78
+  { "textspeed": 30, //78
     "bg": "1bStreet2",
     "overlay": "1Brain",
     "char1": {
@@ -1133,7 +1133,7 @@ const script = [
     "talker": "char2",
     "say": "NOT EVE-"
   },
-  { //dialogue 79
+  { "textspeed": 90, //79
     "bg": "1bStreet2",
     "overlay": "1Brain",
     "char1": {
@@ -1149,7 +1149,7 @@ const script = [
     "talker": "char1",
     "say": "..."
   },
-  { //dialogue 80
+  { "textspeed": 80, //80
     "bg": "1bStreet2",
     "overlay": "1Brain",
     "char1": {
@@ -1165,7 +1165,7 @@ const script = [
     "talker": "char2",
     "say": "... On second thought...."
   },
-  { //dialogue 81
+  { "textspeed": 80, //81
     "bg": "1bStreet2",
     "overlay": "1Brain",
     "char1": {
@@ -1179,7 +1179,7 @@ const script = [
     "talker": "char2",
     "say": "This experiment could potentially show me the weakness of demons in their...."
   },
-  { //dialogue 82
+  { "textspeed": 80, //82
     "bg": "1bStreet2",
     "overlay": "1Brain",
     "char1": {
@@ -1193,7 +1193,7 @@ const script = [
     "talker": "char2",
     "say": "Natural habitat...."
   },
-  { //dialogue 83
+  { "textspeed": 50, //83
     "bg": "1bStreet2",
     "overlay": "1Brain",
     "char1": {
@@ -1209,7 +1209,7 @@ const script = [
     "talker": "char1",
     "say": "Sure it will, come on let's go."
   },
-  { //dialogue 84
+  { "textspeed": 70, //84
     "bg": "1Bmap",
     "overlay": "overlay",
     "char1": {
@@ -1224,7 +1224,7 @@ const script = [
     "talker": "char1",
     "say": "..."
   },
-  { //dialogue 85
+  { "textspeed": 70, //85
     "bg": "1Bmap",
     "overlay": "overlay",
     "char1": {
@@ -1240,7 +1240,7 @@ const script = [
     "talker": "char1",
     "say": "..."
   },
-  { //dialogue 86
+  { "textspeed": 50, //86
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1256,7 +1256,7 @@ const script = [
     "talker": "char2",
     "say": "We got here faster than I thought we would."
   },
-  { //dialogue 87
+  { "textspeed": 80, //87
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1272,7 +1272,7 @@ const script = [
     "talker": "char1",
     "say": "How are you not wet..."
   },
-  { //dialogue 88
+  { "textspeed": 50, //88
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1288,7 +1288,7 @@ const script = [
     "talker": "char2",
     "say": "I just dodged the raindrops!"
   },
-  { //dialogue 89
+  { "textspeed": 90, //89
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1304,7 +1304,7 @@ const script = [
     "talker": "char1",
     "say": "...."
   },
-  { //dialogue 90
+  { "textspeed": 40, //90
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1318,7 +1318,7 @@ const script = [
     "talker": "char1",
     "say": "You cannot be serio-"
   },
-  { //dialogue 91
+  { "textspeed": 30, //91
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1334,7 +1334,7 @@ const script = [
     "talker": "char2",
     "say": "ANYWAY, I think we should get you dried up!"
   },
-  { //dialogue 92
+  { "textspeed": 50, //92
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1350,7 +1350,7 @@ const script = [
     "talker": "char1",
     "say": "You THINK?!"
   },
-  { //dialogue 93
+  { "textspeed": 50, //93
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1366,7 +1366,7 @@ const script = [
     "talker": "char2",
     "say": "Although I don't think I have any clothes for you to change into..."
   },
-  { //dialogue 94
+  { "textspeed": 50, //94
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1380,7 +1380,7 @@ const script = [
     "talker": "char2",
     "say": "At least not ones that will fit you."
   },
-  { //dialogue 95
+  { "textspeed": 50, //95
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1394,7 +1394,7 @@ const script = [
     "talker": "char2",
     "say": "BUUUUUT, we will figure something out!"
   },
-  { //dialogue 96
+  { "textspeed": 90, //96
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1410,7 +1410,7 @@ const script = [
     "talker": "char1",
     "say": "..... It's fine-"
   },
-  { //dialogue 97
+  { "textspeed": 30, //97
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1426,7 +1426,7 @@ const script = [
     "talker": "char2",
     "say": "ANYWAY BATHROOM IS THAT WAY"
   },
-  { //dialogue 98
+  { "textspeed": 30, //98
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1441,7 +1441,7 @@ const script = [
     "talker": "char2",
     "say": "I'LL BE BACK IN A SEEEEEEEeeeeeeeeec..."
   },
-  { //dialogue 99
+  { "textspeed": 90, //99
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1456,7 +1456,7 @@ const script = [
     "talker": "char1",
     "say": "...."
   },
-  { //dialogue 100
+  { "textspeed": 90, //100
     "bg": "1blilithHouse",
     "overlay": "overlay",
     "char1": {
@@ -1470,7 +1470,7 @@ const script = [
     "talker": "char1",
     "say": "I'm so gonna get stabbed...."
   },
-  { //dialogue 101
+  { "textspeed": 30, //101
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1486,7 +1486,7 @@ const script = [
     "talker": "char2",
     "say": "WEEEEEELLLLLLL"
   },
-  { //dialogue 102
+  { "textspeed": 50, //102
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1500,7 +1500,7 @@ const script = [
     "talker": "char2",
     "say": "Let's see how you look!"
   },
-  { //dialogue 103
+  { "textspeed": 90, //103
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1516,7 +1516,7 @@ const script = [
     "talker": "char1",
     "say": "...."
   },
-  { //dialogue 104
+  { "textspeed": 50, //104
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1530,7 +1530,7 @@ const script = [
     "talker": "char1",
     "say": "I don't get the hieroglyphs on this attire..."
   },
-  { //dialogue 104
+  { "textspeed": 90, //104
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1546,7 +1546,7 @@ const script = [
     "talker": "char2",
     "say": "..."
   },
-  { //dialogue 105
+  { "textspeed": 90, //105
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1562,7 +1562,7 @@ const script = [
     "talker": "char1",
     "say": "..."
   },
-  { //dialogue 106
+  { "textspeed": 30, //106
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1576,7 +1576,7 @@ const script = [
     "talker": "char1",
     "say": "... ARE YOU TRYING NOT TO LAUGH???!!??"
   },
-  { //dialogue 107
+  { "textspeed": 90, //107
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1592,7 +1592,7 @@ const script = [
     "talker": "char2",
     "say": "..."
   },
-  { //dialogue 108
+  { "textspeed": 30, //108
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1608,7 +1608,7 @@ const script = [
     "talker": "char1",
     "say": "DO YOU EVEN COMPREHEND HOW DISRESPECTFUL THAT IS???"
   },
-  { //dialogue 109
+  { "textspeed": 80, //109
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1624,7 +1624,7 @@ const script = [
     "talker": "char2",
     "say": "I'm not.... I'm not laughing...."
   },
-  { //dialogue 110
+  { "textspeed": 30, //110
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1640,7 +1640,7 @@ const script = [
     "talker": "char1",
     "say": "THEN EXPLAIN TO ME THE MESSAGE ON THIS SHIRT THIS INSTANT!"
   },
-  { //dialogue 111
+  { "textspeed": 70, //111
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1656,7 +1656,7 @@ const script = [
     "talker": "char2",
     "say": "It's nothing..... Just pretty squiggly lines..."
   },
-  { //dialogue 112
+  { "textspeed": 50, //112
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1672,7 +1672,7 @@ const script = [
     "talker": "char1",
     "say": "Yeah... That's what I THOUGHT."
   },
-  { //dialogue 113
+  { "textspeed": 50, //113
     "bg": "1blilithHouse2",
     "overlay": "overlay",
     "char1": {
@@ -1688,7 +1688,7 @@ const script = [
     "talker": "char2",
     "say": "Yeah, exactly.... ANYWAY"
   },
-  { //dialogue 114
+  { "textspeed": 50, //114
     "bg": "1blilithHouse2",
     "overlay": "lilithinvite",
     "char1": {
@@ -1702,7 +1702,7 @@ const script = [
     "talker": "char2",
     "say": "Cmere, tell me something about yourself"
   },
-  { //dialogue 115
+  { "textspeed": 90, //115
     "bg": "1blilithHouse2",
     "overlay": "lilithinvite",
     "char1": {
@@ -1716,7 +1716,7 @@ const script = [
     "talker": "char1",
     "say": "..... Why?"
   },
-  { //dialogue 116
+  { "textspeed": 50, //116
     "bg": "1blilithHouse2",
     "overlay": "lilithinvite",
     "char1": {
@@ -1730,7 +1730,7 @@ const script = [
     "talker": "char2",
     "say": "Y'know, to get to know each other better!"
   },
-  { //dialogue 117
+  { "textspeed": 90, //117
     "bg": "1blilithHouse2",
     "overlay": "lilithinvite",
     "char1": {
@@ -1744,7 +1744,7 @@ const script = [
     "talker": "char1",
     "say": "...."
   },
-  { //dialogue 118
+  { "textspeed": 50, //118
     "bg": "1blilithHouse2",
     "overlay": "lilithinvite",
     "char1": {
@@ -1758,7 +1758,7 @@ const script = [
     "talker": "char1",
     "say": ".... I see what you're trying to do demon!"
   },
-  { //dialogue 119
+  { "textspeed": 50, //119
     "bg": "1blilithHouse2",
     "overlay": "1btalk1",
     "char1": {
@@ -1772,7 +1772,7 @@ const script = [
     "talker": "char1",
     "say": "And I do see that in your desparate attempts of defeating me you're trying to learn my weakness!"
   },
-  { //dialogue 120
+  { "textspeed": 50, //120
     "bg": "1blilithHouse2",
     "overlay": "1btalk1",
     "char1": {
@@ -1786,7 +1786,7 @@ const script = [
     "talker": "char1",
     "say": "But I will let you know that I, Gavril, Higher Angel of 45'th divine troop, HAVE NONE!"
   },
-  { //dialogue 121
+  { "textspeed": 50, //121
     "bg": "1blilithHouse2",
     "overlay": "1btalk2",
     "char1": {
@@ -1800,7 +1800,7 @@ const script = [
     "talker": "char2",
     "say": "Mhm, sure you don't, big guy."
   },
-  { //dialogue 122
+  { "textspeed": 50, //122
     "bg": "1blilithHouse2",
     "overlay": "1btalk3",
     "char1": {
@@ -1814,7 +1814,7 @@ const script = [
     "talker": "char2",
     "say": "I was wondering though, why did you get banished?"
   },
-  { //dialogue 123
+  { "textspeed": 50, //123
     "bg": "1blilithHouse2",
     "overlay": "1btalk3",
     "char1": {
@@ -1828,7 +1828,7 @@ const script = [
     "talker": "char2",
     "say": "But it's completely fine if you don't want to talk about it."
   },
-  { //dialogue 124
+  { "textspeed": 90, //124
     "bg": "1blilithHouse2",
     "overlay": "1btalk4",
     "char1": {
@@ -1842,7 +1842,7 @@ const script = [
     "talker": "char1",
     "say": "...."
   },
-  { //dialogue 125
+  { "textspeed": 50, //125
     "bg": "1blilithHouse2",
     "overlay": "1btalk5",
     "char1": {
@@ -1856,7 +1856,7 @@ const script = [
     "talker": "char1",
     "say": "Lesser Angel under my command has gone missing during her internship."
   },
-  { //dialogue 126
+  { "textspeed": 30, //126
     "bg": "1blilithHouse2",
     "overlay": "1btalk6",
     "char1": {
@@ -1870,7 +1870,7 @@ const script = [
     "talker": "char1",
     "say": "And even though I was not responsible for her actions during it"
   },
-  { //dialogue 127
+  { "textspeed": 50, //127
     "bg": "1blilithHouse2",
     "overlay": "1btalk6",
     "char1": {
@@ -1884,7 +1884,7 @@ const script = [
     "talker": "char1",
     "say": "I was still blamed for it... Only because I'm her commander and there was no one else to blame."
   },
-  { //dialogue 128
+  { "textspeed": 50, //128
     "bg": "1blilithHouse2",
     "overlay": "1btalk7",
     "char1": {
@@ -1898,7 +1898,7 @@ const script = [
     "talker": "char2",
     "say": "Oh... I'm sorry."
   },
-  { //dialogue 128
+  { "textspeed": 50, //128
     "bg": "1blilithHouse2",
     "overlay": "1btalk8",
     "char1": {
@@ -1912,7 +1912,7 @@ const script = [
     "talker": "char1",
     "say": "Why even care about it, demon!"
   },
-  { //dialogue 129
+  { "textspeed": 50, //129
     "bg": "1blilithHouse2",
     "overlay": "1btalk8",
     "char1": {
@@ -1926,7 +1926,7 @@ const script = [
     "talker": "char1",
     "say": "How did YOU even end up here?"
   },
-  { //dialogue 130
+  { "textspeed": 30, //130
     "bg": "1blilithHouse2",
     "overlay": "1btalk3",
     "char1": {
@@ -1940,7 +1940,7 @@ const script = [
     "talker": "char2",
     "say": "OH! Welllllllllll...."
   },
-  { //dialogue 131
+  { "textspeed": 50, //131
     "bg": "1blilithHouse2",
     "overlay": "1btalk3",
     "char1": {
@@ -1954,7 +1954,7 @@ const script = [
     "talker": "char2",
     "say": "I don't really know how to explain it."
   },
-  { //dialogue 132
+  { "textspeed": 50, //132
     "bg": "1blilithHouse2",
     "overlay": "1btalk3",
     "char1": {
@@ -1968,7 +1968,7 @@ const script = [
     "talker": "char2",
     "say": "Let's just say, I saw the Devil's throne and it was empty."
   },
-  { //dialogue 133
+  { "textspeed": 30, //133
     "bg": "1blilithHouse2",
     "overlay": "despair3",
     "char1": {
@@ -1982,7 +1982,7 @@ const script = [
     "talker": "char1",
     "say": "..... Huh?"
   },
-  { //dialogue 134
+  { "textspeed": 50, //134
     "bg": "1blilithHouse2",
     "overlay": "blackscreen1b",
     "char1": {
@@ -1996,7 +1996,7 @@ const script = [
     "talker": "char1",
     "say": "End of chapter 1-B"
   },
-  { //dialogue 135
+  { "textspeed": 50, //135
     "bg": "1blilithHouse2",
     "overlay": "blackscreen1b",
     "char1": {

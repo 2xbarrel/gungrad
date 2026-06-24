@@ -1,5 +1,6 @@
 const script = [ // let the pain begin
   { //dialogue 1
+    "textspeed": 30,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -14,6 +15,7 @@ const script = [ // let the pain begin
     "say": "*click*"
   },
   { //dialogue 2
+    "textspeed": 30,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -28,6 +30,7 @@ const script = [ // let the pain begin
     "say": "*click click click click click*"
   },
   { //dialogue 3
+    "textspeed": 50,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -43,6 +46,7 @@ const script = [ // let the pain begin
     "say": "Great, awesome even."
   },
   { //dialogue 4
+    "textspeed": 50,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -58,6 +62,7 @@ const script = [ // let the pain begin
     "say": "Hopefully light's are out in the whole building and not just my apartment."
   },
   { //dialogue 5
+    "textspeed": 30,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -72,6 +77,7 @@ const script = [ // let the pain begin
     "say": "*buzzzzzzzzzzzzzzzz buzzzzzzzzzzzzzzzzz*"
   },
   { //dialogue 6
+    "textspeed": 20,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -88,6 +94,7 @@ const script = [ // let the pain begin
     "say": "NOW WHAT, WHO'S CALLING ME??!!"
   },
   { //dialogue 7
+    "textspeed": 20,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -104,6 +111,7 @@ const script = [ // let the pain begin
     "say": "WHO IS THIS???!??!??!?"
   },
   { //dialogue 8
+    "textspeed": 50,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -119,6 +127,7 @@ const script = [ // let the pain begin
     "say": "Hello? Stanley?"
   },
   { //dialogue 9
+    "textspeed": 30,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -134,6 +143,7 @@ const script = [ // let the pain begin
     "say": "OH SHIT, Sammy!"
   },
   { //dialogue 10
+    "textspeed": 50,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -148,6 +158,7 @@ const script = [ // let the pain begin
     "say": "Sammy, buddy, how're you doing?"
   },
   { //dialogue 11
+    "textspeed": 50,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -162,6 +173,7 @@ const script = [ // let the pain begin
     "say": "As well as one could be..."
   },
   { //dialogue 12
+    "textspeed": 50,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -176,6 +188,7 @@ const script = [ // let the pain begin
     "say": "Look I need you to come to the office, it's important this time."
   },
   { //dialogue 13
+    "textspeed": 50,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -190,6 +203,7 @@ const script = [ // let the pain begin
     "say": "Trust me Sammy, I would LOVE to, but power in my apartment kinda went out, I'm trying to figure it out."
   },
   { //dialogue 14
+    "textspeed": 50,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -205,6 +219,7 @@ const script = [ // let the pain begin
     "say": "Oh, so they cut it already..."
   },
   { //dialogue 15
+    "textspeed": 90,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -219,6 +234,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 16
+    "textspeed": 60,
     "bg": "bg1A2",
     "overlay": "overlay1A2",
     "char1": {
@@ -233,6 +249,7 @@ const script = [ // let the pain begin
     "say": '... What do you mean "already"??'
   },
   { //dialogue 17
+    "textspeed": 50,
     "bg": "bg1A2",
     "overlay": "office1",
     "char1": {
@@ -250,6 +267,7 @@ const script = [ // let the pain begin
     "say": "Look, Stanley, this is something I need to tell you personally."
   },
   { //dialogue 18
+    "textspeed": 50,
     "bg": "office",
     "overlay": "office1",
     "char1": {
@@ -266,6 +284,7 @@ const script = [ // let the pain begin
     "say": ".... Stanley?"
   },
   { //dialogue 19
+    "textspeed": 30,
     "bg": "office",
     "overlay": "office2",
     "char1": {
@@ -280,6 +299,7 @@ const script = [ // let the pain begin
     "say": 'WHAT DO YOU MEAN "ALREADY"???'
   },
   { //dialogue 20
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -294,6 +314,7 @@ const script = [ // let the pain begin
     "say": 'How did you get here so fast?'
   },
   { //dialogue 21
+    "textspeed": 30,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -308,6 +329,7 @@ const script = [ // let the pain begin
     "say": 'I TOOK A PUBLIC TRANSPORTATION SERVICE CALLED A BUS'
   },
   { //dialogue 22
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -322,6 +344,7 @@ const script = [ // let the pain begin
     "say": 'Alright? ... Anyway.'
   },
   { //dialogue 23
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -336,6 +359,7 @@ const script = [ // let the pain begin
     "say": 'I just wanted to tell you that.... Stanley...'
   },
   { //dialogue 24
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -350,6 +374,7 @@ const script = [ // let the pain begin
     "say": "You're gonna have to start paying taxes...."
   },
   { //dialogue 25
+    "textspeed": 90,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -364,6 +389,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 26
+    "textspeed": 90,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -379,6 +405,7 @@ const script = [ // let the pain begin
     "say": "... Sammy, buddy, chum, pal, friend, amigo."
   },
   { //dialogue 27
+    "textspeed": 60,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -393,6 +420,7 @@ const script = [ // let the pain begin
     "say": "You know I checked the calendar today and im pretty sure it said today is 12'th of October"
   },
   { //dialogue 28
+    "textspeed": 60,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -407,6 +435,7 @@ const script = [ // let the pain begin
     "say": "It didn't look like April 1st to me Sammy, it's 12'th of October Sammy, your jokes are around 6 months late buddy."
   },
   { //dialogue 29
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -421,6 +450,7 @@ const script = [ // let the pain begin
     "say": "Stanley, look, I can't just erase all of your tax debt."
   },
   { //dialogue 30
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -435,6 +465,7 @@ const script = [ // let the pain begin
     "say": "Management are starting to notice that something shady is going on, I don't think we can keep this up for much longer."
   },
   { //dialogue 31
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -449,6 +480,7 @@ const script = [ // let the pain begin
     "say": "If we do, both of us will get in trouble."
   },
   { //dialogue 32
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -463,6 +495,7 @@ const script = [ // let the pain begin
     "say": "....And you maybe, perhaps, possibly....."
   },
   { //dialogue 33
+    "textspeed": 90,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -480,6 +513,7 @@ const script = [ // let the pain begin
     "say": "Owe 50 thousands dollars to the goverment....."
   },
   { //dialogue 34
+    "textspeed": 90,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -495,6 +529,7 @@ const script = [ // let the pain begin
     "say": ".....50 thousands?"
   },
   { //dialogue 35
+    "textspeed": 90,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -509,6 +544,7 @@ const script = [ // let the pain begin
     "say": "50 thousands........."
   },
   { //dialogue 36
+    "textspeed": 30,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -524,6 +560,7 @@ const script = [ // let the pain begin
     "say": "WHERE THE FUCK AM I SUPPOSED TO GET 50 THOUSAND DOLLARS???!!!"
   },
   { //dialogue 37
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -539,6 +576,7 @@ const script = [ // let the pain begin
     "say": "Well, I've been thinking about it."
   },
   { //dialogue 38
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -553,6 +591,7 @@ const script = [ // let the pain begin
     "say": "You could get a loan, pay the debt, and repay the loan with your salary."
   },
   { //dialogue 39
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -567,6 +606,7 @@ const script = [ // let the pain begin
     "say": "Yeah, yeah cool."
   },
   { //dialogue 40
+    "textspeed": 30,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -582,6 +622,7 @@ const script = [ // let the pain begin
     "say": "I'VE BEEN FIRED FOR AT LEAST 2 WEEKS NOW SAMMY!!!!!"
   },
   { //dialogue 41
+    "textspeed": 30,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -596,6 +637,7 @@ const script = [ // let the pain begin
     "say": "I'M JOBLESS, UNEMPLOYED EVEN, I'M BARELY MAKING ENDS MEET!!!!!"
   },
   { //dialogue 42
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -610,6 +652,7 @@ const script = [ // let the pain begin
     "say": "...Then you should, get a job?"
   },
   { //dialogue 43
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -625,6 +668,7 @@ const script = [ // let the pain begin
     "say": "Oh no my silly, funny, hilarious friend."
   },
   { //dialogue 44
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -639,6 +683,7 @@ const script = [ // let the pain begin
     "say": "An idea came into my mind JUST NOW!"
   },
   { //dialogue 45
+    "textspeed": 50,
     "bg": "office",
     "overlay": "1A",
     "char1": {
@@ -653,6 +698,7 @@ const script = [ // let the pain begin
     "say": "I know EXACTLY how I'm gonna get all this money!"
   },
   { //dialogue 46
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "1Ablackscreen",
     "char1": {
@@ -667,6 +713,7 @@ const script = [ // let the pain begin
     "say": ".....How?"
   },
   { //dialogue 47
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "711ov",
     "char1": {
@@ -681,6 +728,7 @@ const script = [ // let the pain begin
     "say": "Put the money in the bag."
   },
   { //dialogue 48
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "711ov",
     "char1": {
@@ -695,6 +743,7 @@ const script = [ // let the pain begin
     "say": "...Stanley, dude, the hell are you doing man?"
   },
   { //dialogue 49
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "711ov",
     "char1": {
@@ -709,6 +758,7 @@ const script = [ // let the pain begin
     "say": "Just give me the money Brad, you're losing nothing here it's not even your money."
   },
   { //dialogue 50
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "zacklol",
     "char1": {
@@ -723,6 +773,7 @@ const script = [ // let the pain begin
     "say": "I don't get your plan at all dude."
   },
   { //dialogue 51
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "zacklol2",
     "char1": {
@@ -737,6 +788,7 @@ const script = [ // let the pain begin
     "say": "What is there not to understand? You give me the money and the insurance company covers it up!"
   },
   { //dialogue 52
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "zacklol3",
     "char1": {
@@ -751,6 +803,7 @@ const script = [ // let the pain begin
     "say": "It's a foolproof plan Brad!"
   },
   { //dialogue 53
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "zacklol3",
     "char1": {
@@ -766,6 +819,7 @@ const script = [ // let the pain begin
     "say": "So an insurance scam?"
   },
   { //dialogue 54
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -780,6 +834,7 @@ const script = [ // let the pain begin
     "say": "Well.. you see-"
   },
   { //dialogue 55
+    "textspeed": 90,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -795,6 +850,7 @@ const script = [ // let the pain begin
     "say": "...."
   },
   { //dialogue 56
+    "textspeed": 90,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -809,6 +865,7 @@ const script = [ // let the pain begin
     "say": "...."
   },
   { //dialogue 57
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -823,6 +880,7 @@ const script = [ // let the pain begin
     "say": ".... Can I help you?"
   },
   { //dialogue 58
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -837,6 +895,7 @@ const script = [ // let the pain begin
     "say": "You're doing it wrong."
   },
   { //dialogue 59
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -851,6 +910,7 @@ const script = [ // let the pain begin
     "say": "...What?"
   },
   { //dialogue 60
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -865,6 +925,7 @@ const script = [ // let the pain begin
     "say": "Your scheme wont work, you still need a weapon just to put on a show for the cameras."
   },
   { //dialogue 61
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -879,6 +940,7 @@ const script = [ // let the pain begin
     "say": "So it will look convincing for the insurance company."
   },
   { //dialogue 61
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -893,6 +955,7 @@ const script = [ // let the pain begin
     "say": "But I do like your thinking, please continue."
   },
   { //dialogue 62
+    "textspeed": 90,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -907,6 +970,7 @@ const script = [ // let the pain begin
     "say": "....Okay?"
   },
   { //dialogue 63
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -921,6 +985,7 @@ const script = [ // let the pain begin
     "say": "Where was I? Oh yeah-"
   },
   { //dialogue 64
+    "textspeed": 30,
     "bg": "711bg2",
     "overlay": "1A",
     "char1": {
@@ -935,6 +1000,7 @@ const script = [ // let the pain begin
     "say": "Actually!"
   },
   { //dialogue 65
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "thatdamnsmile",
     "char1": {
@@ -951,6 +1017,7 @@ const script = [ // let the pain begin
     "say": "Let me show you how it's done..."
   },
   { //dialogue 66
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "711ov",
     "char1": {
@@ -967,6 +1034,7 @@ const script = [ // let the pain begin
     "say": "... Dude"
   },
   { //dialogue 67
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "711ov",
     "char1": {
@@ -981,6 +1049,7 @@ const script = [ // let the pain begin
     "say": "Are you gonna pay for that drink-"
   },
   { //dialogue 68
+    "textspeed": 30,
     "bg": "711bg",
     "overlay": "daddychill",
     "char1": {
@@ -995,6 +1064,7 @@ const script = [ // let the pain begin
     "say": "GIVE ME ALL YOUR FUCKING MONEY"
   },
   { //dialogue 69
+    "textspeed": 30,
     "bg": "711bg",
     "overlay": "daddychill",
     "char1": {
@@ -1009,6 +1079,7 @@ const script = [ // let the pain begin
     "say": "OR I WILL GIVE YOU A HOLE FOR THE THIRD EYE"
   },
   { //dialogue 70
+    "textspeed": 90,
     "bg": "711bg",
     "overlay": "gracedead4",
     "char1": {
@@ -1023,6 +1094,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 71
+    "textspeed": 90,
     "bg": "711bg",
     "overlay": "gracedead0",
     "char1": {
@@ -1037,6 +1109,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 72
+    "textspeed": 90,
     "bg": "711bg",
     "overlay": "gracedead3",
     "char1": {
@@ -1051,6 +1124,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 73
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "gracedead",
     "char1": {
@@ -1065,6 +1139,7 @@ const script = [ // let the pain begin
     "say": "I do beg your pardon but it would seem you have stumbled upon a scene you weren't supposed to see."
   },
   { //dialogue 74
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "gracedead2",
     "char1": {
@@ -1079,6 +1154,7 @@ const script = [ // let the pain begin
     "say": "Now, would you be so kind to leave this establishment this mere second before I will be forced to use drastic measures."
   },
   { //dialogue 75
+    "textspeed": 90,
     "bg": "711bg",
     "overlay": "gracedead3",
     "char1": {
@@ -1093,6 +1169,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 76
+    "textspeed": 90,
     "bg": "711bg",
     "overlay": "gracedead4",
     "char1": {
@@ -1108,6 +1185,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 77
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "711ov",
     "char1": {
@@ -1122,6 +1200,7 @@ const script = [ // let the pain begin
     "say": "... Fuuuuuck where was I...?"
   },
   { //dialogue 78
+    "textspeed": 30,
     "bg": "711bg",
     "overlay": "711ov",
     "char1": {
@@ -1137,6 +1216,7 @@ const script = [ // let the pain begin
     "say": "S-Stanley?? Dude, are you g-gonna do something???? Anything???"
   },
   { //dialogue 79
+    "textspeed": 60,
     "bg": "711bg",
     "overlay": "stanleylearnt",
     "char1": {
@@ -1150,7 +1230,8 @@ const script = [ // let the pain begin
     "talker": "char2",
     "say": "....... damn."
   },
-  { //dialogue 80
+  { //dialogue 90
+    "textspeed": 50,
     "bg": "711bg",
     "overlay": "stanleylearnt",
     "char1": {
@@ -1166,6 +1247,7 @@ const script = [ // let the pain begin
     "say": "Let him do his thing hold on..."
   },
   { //dialogue 81
+    "textspeed": 90,
     "bg": "711bg2",
     "overlay": "siren",
     "char1": {
@@ -1180,6 +1262,7 @@ const script = [ // let the pain begin
     "say": "...."
   },
   { //dialogue 82
+    "textspeed": 50,
     "bg": "711bg2",
     "overlay": "siren",
     "char1": {
@@ -1195,6 +1278,7 @@ const script = [ // let the pain begin
     "say": "FUUUUUUUCKKKKK, THE FEDS!!!!!!!!!"
   },
   { //dialogue 83
+    "textspeed": 30,
     "bg": "711bg2",
     "overlay": "siren",
     "char1": {
@@ -1210,6 +1294,7 @@ const script = [ // let the pain begin
     "say": "Whoa h-hey, It's not a real robbery it's all just a joke right??"
   },
   { //dialogue 84
+    "textspeed": 50,
     "bg": "flashyn",
     "overlay": "siren",
     "char1": {
@@ -1226,6 +1311,7 @@ const script = [ // let the pain begin
     "say": "LISTEN TO ME MY BOY... whatever your name is."
   },
   { //dialogue 85
+    "textspeed": 50,
     "bg": "flashyn",
     "overlay": "siren",
     "char1": {
@@ -1240,6 +1326,7 @@ const script = [ // let the pain begin
     "say": "Stanley."
   },
   { //dialogue 86
+    "textspeed": 50,
     "bg": "flashyn",
     "overlay": "siren",
     "char1": {
@@ -1254,6 +1341,7 @@ const script = [ // let the pain begin
     "say": "Stanley... My name's E-.. Zack, BUT THATS NOT IMPORTANT RIGHT NOW"
   },
   { //dialogue 87
+    "textspeed": 40,
     "bg": "flashyn",
     "overlay": "siren",
     "char1": {
@@ -1268,6 +1356,7 @@ const script = [ // let the pain begin
     "say": "DO YOU WANT TO GO TO JAIL STANLEY, DO YOU WANT TO SPEND THE REST OF YOUR LIFE BEHIND BARS!!!!"
   },
   { //dialogue 88
+    "textspeed": 30,
     "bg": "flashyn",
     "overlay": "siren",
     "char1": {
@@ -1282,6 +1371,7 @@ const script = [ // let the pain begin
     "say": "NO- NO OF COURSE NOT!!"
   },
   { //dialogue 89
+    "textspeed": 60,
     "bg": "flashyn1",
     "overlay": "siren",
     "char1": {
@@ -1296,6 +1386,7 @@ const script = [ // let the pain begin
     "say": "Then do we have an agreement that you will follow and do exactly as I say."
   },
   { //dialogue 90
+    "textspeed": 60,
     "bg": "flashyn2",
     "overlay": "siren",
     "char1": {
@@ -1310,6 +1401,7 @@ const script = [ // let the pain begin
     "say": "....Y-yes."
   },
   { //dialogue 91
+    "textspeed": 90,
     "bg": "flashyn3",
     "overlay": "siren",
     "char1": {
@@ -1324,6 +1416,7 @@ const script = [ // let the pain begin
     "say": "He he he.... In that case... FLÄSHYN."
   },
   { //dialogue 92
+    "textspeed": 50,
     "bg": "flashyn4",
     "overlay": "siren",
     "char1": {
@@ -1338,6 +1431,7 @@ const script = [ // let the pain begin
     "say": "What? The hell does that supposed to mea-"
   },
   { //dialogue 93
+    "textspeed": 50,
     "bg": "flashyn5",
     "overlay": "siren",
     "char1": {
@@ -1352,6 +1446,7 @@ const script = [ // let the pain begin
     "say": "...."
   },
   { //dialogue 94
+    "textspeed": 50,
     "bg": "flashyn6",
     "overlay": "siren",
     "char1": {
@@ -1366,6 +1461,7 @@ const script = [ // let the pain begin
     "say": ".........."
   },
   { //dialogue 95
+    "textspeed": 30,
     "bg": "flashyn7",
     "overlay": "siren",
     "char1": {
@@ -1380,6 +1476,7 @@ const script = [ // let the pain begin
     "say": "..........ohoohohohohohoohohhhoohohoohoo"
   },
   { //dialogue 96
+    "textspeed": 90,
     "bg": "biggun",
     "overlay": "1Ablackscreen",
     "char1": {
@@ -1394,6 +1491,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 97
+    "textspeed": 90,
     "bg": "biggun",
     "overlay": "biggunblur",
     "char1": {
@@ -1408,6 +1506,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 98
+    "textspeed": 90,
     "bg": "biggun",
     "overlay": "1A",
     "char1": {
@@ -1422,6 +1521,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 99
+    "textspeed": 90,
     "bg": "biggun",
     "overlay": "biggun1",
     "char1": {
@@ -1436,6 +1536,7 @@ const script = [ // let the pain begin
     "say": "..."
   },
   { //dialogue 100
+    "textspeed": 30,
     "bg": "biggun",
     "overlay": "biggun1",
     "char1": {
@@ -1452,6 +1553,7 @@ const script = [ // let the pain begin
     "say": "...HUH??????"
   },
   { //dialogue 101
+    "textspeed": 30,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1468,6 +1570,7 @@ const script = [ // let the pain begin
     "say": "WHAT IS THIS????? WHERE AM I?????"
   },
   { //dialogue 102
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1482,6 +1585,7 @@ const script = [ // let the pain begin
     "say": "Why did you stop shooting asshole? They're catching up to us!"
   },
   { //dialogue 103
+    "textspeed": 30,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1496,6 +1600,7 @@ const script = [ // let the pain begin
     "say": "YOU DRUGGED ME YOU FUCKING PSYCHOPATH!"
   },
   { //dialogue 104
+    "textspeed": 30,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1510,6 +1615,7 @@ const script = [ // let the pain begin
     "say": "JUST SO YOU KNOW"
   },
   { //dialogue 105
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1524,6 +1630,7 @@ const script = [ // let the pain begin
     "say": `I "drugged" you with the purest nose candy all of Los Verminos can provide!`
   },
   { //dialogue 106
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1538,6 +1645,7 @@ const script = [ // let the pain begin
     "say": `I should be taking money from you for that!`
   },
   { //dialogue 107
+    "textspeed": 30,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1552,6 +1660,7 @@ const script = [ // let the pain begin
     "say": `I COULD CARE LESS, GET ME OUT OF HERE!`
   },
   { //dialogue 108
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1566,6 +1675,7 @@ const script = [ // let the pain begin
     "say": `I don't like you sober....`
   },
   { //dialogue 109
+    "textspeed": 30,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1580,6 +1690,7 @@ const script = [ // let the pain begin
     "say": `STOP THIS FUCKING CAR ALREADY!!!`
   },
   { //dialogue 110
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1594,6 +1705,7 @@ const script = [ // let the pain begin
     "say": `Well if you want to get shot by the police, you're free to go.`
   },
   { //dialogue 111
+    "textspeed": 30,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1608,6 +1720,7 @@ const script = [ // let the pain begin
     "say": `THE POLICE??????`
   },
   { //dialogue 112
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1622,6 +1735,7 @@ const script = [ // let the pain begin
     "say": `Who else, dent head?`
   },
   { //dialogue 113
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1636,6 +1750,7 @@ const script = [ // let the pain begin
     "say": `I'm gonna have a heart attack...`
   },
   { //dialogue 114
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1650,6 +1765,7 @@ const script = [ // let the pain begin
     "say": `RHAÄVE'SHO my friend.`
   },
   { //dialogue 115
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1664,6 +1780,7 @@ const script = [ // let the pain begin
     "say": `I still don't understand you....`
   },
   { //dialogue 116
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1678,6 +1795,7 @@ const script = [ // let the pain begin
     "say": `Well I think you'll understand this one.`
   },
   { //dialogue 117
+    "textspeed": 50,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1692,6 +1810,7 @@ const script = [ // let the pain begin
     "say": `We're gonna crash.`
   },
   { //dialogue 118
+    "textspeed": 60,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1706,6 +1825,7 @@ const script = [ // let the pain begin
     "say": `....what?`
   },
   { //dialogue 118
+    "textspeed": 30,
     "bg": "carbg",
     "overlay": "carov",
     "char1": {
@@ -1720,6 +1840,7 @@ const script = [ // let the pain begin
     "say": `DAMN!`
   },
   { //dialogue 119
+    "textspeed": 30,
     "bg": "carbg",
     "overlay": "DAMN",
     "char1": {
@@ -1736,6 +1857,7 @@ const script = [ // let the pain begin
     "say": `DAAAAAAAAAAAAAAAAAAAAAAAAAMN!`
   },
   { //dialogue 120
+    "textspeed": 90,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1752,6 +1874,7 @@ const script = [ // let the pain begin
     "say": `.....`
   },
   { //dialogue 121
+    "textspeed": 90,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1768,6 +1891,7 @@ const script = [ // let the pain begin
     "say": `.....hehehehehehe`
   },
   { //dialogue 122
+    "textspeed": 50,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1782,6 +1906,7 @@ const script = [ // let the pain begin
     "say": `Man, I'll be honest here, I did NOT expect to survive this!`
   },
   { //dialogue 123
+    "textspeed": 50,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1796,6 +1921,7 @@ const script = [ // let the pain begin
     "say": `This entire thing was like, a suicide attempt!`
   },
   { //dialogue 124
+    "textspeed": 50,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1810,6 +1936,7 @@ const script = [ // let the pain begin
     "say": `MAN! I guess I'm just too sexy and swag to die!`
   },
   { //dialogue 125
+    "textspeed": 90,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1824,6 +1951,7 @@ const script = [ // let the pain begin
     "say": `....`
   },
   { //dialogue 126
+    "textspeed": 90,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1838,6 +1966,7 @@ const script = [ // let the pain begin
     "say": `Don't come near me.`
   },
   { //dialogue 127
+    "textspeed": 90,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1852,6 +1981,7 @@ const script = [ // let the pain begin
     "say": `Forget my name you fucking psychopath.`
   },
   { //dialogue 128
+    "textspeed": 50,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1866,6 +1996,7 @@ const script = [ // let the pain begin
     "say": `Fine, whateva, you don't want to get into the game? That's cool.`
   },
   { //dialogue 129
+    "textspeed": 50,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1880,6 +2011,7 @@ const script = [ // let the pain begin
     "say": `At least take your cut.`
   },
   { //dialogue 130
+    "textspeed": 90,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1894,6 +2026,7 @@ const script = [ // let the pain begin
     "say": `.... A sock..?`
   },
   { //dialogue 131
+    "textspeed": 50,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1908,6 +2041,7 @@ const script = [ // let the pain begin
     "say": `Yea`
   },
   { //dialogue 132
+    "textspeed": 90,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1922,6 +2056,7 @@ const script = [ // let the pain begin
     "say": `....This is a fucking mockery.`
   },
   { //dialogue 133
+    "textspeed": 50,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1936,6 +2071,7 @@ const script = [ // let the pain begin
     "say": `A fair mans pay after a fair mans work!`
   },
   { //dialogue 134
+    "textspeed": 30,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1950,6 +2086,7 @@ const script = [ // let the pain begin
     "say": `.... SURE`
   },
   { //dialogue 135
+    "textspeed": 30,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1965,6 +2102,7 @@ const script = [ // let the pain begin
     "say": `FUCKING SURE`
   },
   { //dialogue 136
+    "textspeed": 90,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1979,6 +2117,7 @@ const script = [ // let the pain begin
     "say": `...`
   },
   { //dialogue 137
+    "textspeed": 50,
     "bg": "1aStreet",
     "overlay": "1A",
     "char1": {
@@ -1993,6 +2132,7 @@ const script = [ // let the pain begin
     "say": `Oh baby! We're back in action!`
   },
   { //dialogue 138
+    "textspeed": 90,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -2009,6 +2149,7 @@ const script = [ // let the pain begin
     "say": `....`
   },
   { //dialogue 139
+    "textspeed": 90,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -2023,6 +2164,7 @@ const script = [ // let the pain begin
     "say": `.... It's so fucking over...`
   },
   { //dialogue 140
+    "textspeed": 50,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -2037,6 +2179,7 @@ const script = [ // let the pain begin
     "say": `I need to skip town.... Change my nam-`
   },
   { //dialogue 141
+    "textspeed": 50,
     "bg": "bg1A",
     "overlay": "overlay1A",
     "char1": {
@@ -2051,6 +2194,7 @@ const script = [ // let the pain begin
     "say": `...There's something in this sock...`
   },
   { //dialogue 142
+    "textspeed": 90,
     "bg": "bigmoney",
     "overlay": "overlay1A",
     "char1": {
@@ -2066,6 +2210,7 @@ const script = [ // let the pain begin
     "say": `......`
   },
   { //dialogue 143
+    "textspeed": 90,
     "bg": "bigmoney",
     "overlay": "overlay1A",
     "char1": {
@@ -2080,6 +2225,7 @@ const script = [ // let the pain begin
     "say": `...... This.`
   },
   { //dialogue 144
+    "textspeed": 90,
     "bg": "bigmoney",
     "overlay": "overlay1A",
     "char1": {
@@ -2094,6 +2240,7 @@ const script = [ // let the pain begin
     "say": `...... This might work...`
   },
   { //dialogue 144
+    "textspeed": 50,
     "bg": "bigmoney",
     "overlay": "1Ablackscreen",
     "char1": {
@@ -2108,6 +2255,7 @@ const script = [ // let the pain begin
     "say": `End of chapter 1-A`
   },
   { //dialogue 144
+    "textspeed": 50,
     "bg": "bigmoney",
     "overlay": "ripgrace",
     "char1": {
